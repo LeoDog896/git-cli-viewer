@@ -19,8 +19,6 @@ else
 	fi
 fi
 
-echo $githubDiscoveryURL
-
 git clone $githubDiscoveryURL $tmp_dir --depth=1
 
 (cd $tmp_dir; eval $SHELL)
